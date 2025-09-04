@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARIkidstudio</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #fffde7;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        /* Header & Navigation */
+        header {
+            background-color: #ffcc00;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #ff5733;
+        }
+        nav a {
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            color: #333;
+        }
+        nav a:hover {
+            color: #ff5733;
+        }
+        /* Banner */
+        .banner {
+            width: 100%;
+            height: 400px;
+            background: url('https://via.placeholder.com/1600x400.png?text=SARIkidstudio+Banner') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px #000;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        /* Sections */
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            font-size: 32px;
+            text-align: center;
+            color: #ff5733;
+            margin-bottom: 40px;
+        }
+        /* About / Founder */
+        .founder {
+            text-align: center;
+        }
+        .founder img {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #ffcc00;
+        }
+        .founder p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+        }
+        /* Portfolio Grid */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-grid a {
+            display: block;
+            transition: transform 0.2s ease-in-out;
+        }
+        .portfolio-grid a:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-grid img {
+            width: 100%;
+            border-radius: 12px;
+            border: 3px solid #ffcc00;
+        }
+        /* Services */
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service-box {
+            background-color: #ffe082;
+            padding: 20px;
+            border-radius: 12px;
+            width: 250px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 2px 2px 8px #ffcc00;
+        }
+        /* Contact Form */
+        .contact-form {
+            max-width: 500px;
+            margin: auto;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 2px solid #ffcc00;
+            font-size: 16px;
+        }
+        .contact-form button {
+            background-color: #ff5733;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #ff7733;
+        }
+        /* Footer */
+        footer {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #ff5733;
+        }
+        .social-icons a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>SARIkidstudio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        Adventures Start Here!
+    </div>
+<!-- About / Founder -->
+    <section id="about">
+        <h2>About Sarikidstudio </h2>
+        <div class="founder">
+<img src="cover.jpg" alt="logo">
+            <p>SARIkid Studio is dedicated to creating high-quality kids’ animations that inspire creativity, teamwork, and a love for cultural heritage. Through fun and engaging stories, we nurture young minds to think imaginatively, work together, and stay connected to their roots..</p>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <h2>Our Animations</h2>
+        <div class="portfolio-grid">
+            <a href="https://www.youtube.com/watch?v=EJXQfsa8CA8">
+                <img src="https://via.placeholder.com/300x200.png?text=Animation+1" alt="Adagnu turist">
+            </a>
+            <a href="https://www.youtube.com/watch?v=NdJhS5Zvq24&list=RDNdJhS5Zvq24&start_radio=1">
+                <img src="https://via.placeholder.com/300x200.png?text=Animation+2" alt="Shalalala">
+            </a>
+            <a href="https://www.youtube.com/watch?v=u0t7pcTxbMU&list=RDu0t7pcTxbMU&start_radio=1">
+                <img src="https://via.placeholder.com/300x200.png?text=Animation+3" alt="Memar ewodalehu">
+            </a>
+            <a href="https://www.youtube.com/watch?v=c0digM0EanA&list=RDc0digM0EanA&start_radio=1">
+                <img src="https://via.placeholder.com/300x200.png?text=Animation+4" alt="Titilo">
+            </a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">2D Animation</div>
+            <div class="service-box">Collaborations</div>
+            <div class="service-box">Kids Content</div>
+            <div class="service-box">Storytelling & Creativity</div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/@Ethiopiankids-c3g"_blank">YouTube</a>
+            <a href="https://tiktok.com/@your-profile" target="_blank">TikTok</a>
+        </div>
+        &copy; 2025 SARIkidstudio
+    </footer>
+</body>
+</html>
